@@ -22,12 +22,12 @@ setuptools.setup(
     version="0.2.3",
     author="csunny",
     author_email="cfqcsunny@gmail.com",
-    description="DB-GPT is an experimental open-source project that uses localized GPT large models to interact with your data and environment."
-    " With this solution, you can be assured that there is no risk of data leakage, and your data is 100% private and secure.",
+    description="鲲言sql智能辅助系统是一款基于大模型的sql辅助系统，可以帮助提升运维效率，发现系统问题。"
+    " 由于是私有化的系统，不会存在数据泄漏的问题",
     long_description=long_description,
     long_description_content_type="text/markdown",
     install_requires=parse_requirements("requirements.txt"),
-    url="https://github.com/csunny/DB-GPT",
+    url="https://github.com/liushuchun/GPT-SQLboy",
     license="https://opensource.org/license/mit/",
     python_requires=">=3.10",
     entry_points={
